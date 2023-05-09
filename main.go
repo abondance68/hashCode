@@ -3,6 +3,11 @@
 /*
 This program is a basic implementation of a hash function that takes a name as input in the cli,
 sums up each ASCII characters corresponding to each letter of the name and divides that sum by 100.
+
+Side Note: 
+After reading the user input, it checks if the input consists of only alphabetic letters by iterating over each character and using the unicode.IsLetter() function.
+If a non-alphabetic character is found, an error is thrown with log.Fatalf() and the program exits.
+Otherwise, it prints the value.
 */
 
 package main
