@@ -1,3 +1,3 @@
-module github.com/abondance68/hashfunctio
+module github.com/abondance68/hashingAlgo
 
 go 1.20
