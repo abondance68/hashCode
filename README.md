@@ -8,7 +8,7 @@
  
 This hashing algorithm is the prerequisite for building Hash Tables.<br>
 Nevertheless, if two names , after being hashed with the hashing algorithm, results in the same output, then we have<br>
-a condition called "collision" and we need a way to handle collision.<br>
+a condition called  'collision'  and we need a way to handle collision.<br>
 
 There exist 2 ways for handling collisions, one of the most reliable & effective is 'separate chaining' . <br>
 
